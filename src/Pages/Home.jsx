@@ -28,7 +28,7 @@ const Home = () => {
       </div>
 
       {/* card section */}
-      <div className="container w-full md:w-[1040px] h-[400px] md:h-[499px] mb-12 md:mb-[80px] bg-[url(cardbg.jpg)] bg-cover bg-center bg-no-repeat rotate-2 rounded-3xl">
+      <div className="container w-full md:w-[1040px] h-[400px] md:h-[499px] mb-12 md:mb-[80px] bg-[url(../src/assets/cardbg.jpg)] bg-cover bg-center bg-no-repeat rotate-2 rounded-3xl">
         <div className='w-full h-full bg-[#174a37e4] rounded-3xl flex flex-col justify-center items-center px-4 md:px-0'>
           <p className='text-[14px] md:text-[16px] font-semibold bg-[#ECD8A0] w-fit px-4 py-1 rounded-4xl text-brown mb-4 md:mb-[24px]'>CATERED DELIGHTS</p>
           <p className='text-[32px] md:text-[48px] leading-[40px] md:leading-[56px] text-white mb-4 md:mb-[24px] text-center'>
@@ -58,10 +58,10 @@ const Home = () => {
 
         {/* Right scrollable content - grid changes on mobile */}
         <div className='w-full h-full relative grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 overflow-y-auto'>
-          <div className='w-full h-[300px] md:h-[470px] bg-[url(food1.avif)] bg-cover bg-center bg-no-repeat rounded-lg'></div>
-          <div className='w-full h-[300px] md:h-[470px] bg-[url(food2.avif)] bg-cover bg-center bg-no-repeat rounded-lg md:mt-[40px]'></div>
-          <div className='w-full h-[300px] md:h-[470px] bg-[url(food3.avif)] bg-cover bg-center bg-no-repeat rounded-lg md:mt-[-40px]'></div>
-          <div className='w-full h-[300px] md:h-[470px] bg-[url(food4.avif)] bg-cover bg-center bg-no-repeat rounded-lg'></div>
+          <div className='w-full h-[300px] md:h-[470px] bg-[url(../src/assets/food1.avif)] bg-cover bg-center bg-no-repeat rounded-lg'></div>
+          <div className='w-full h-[300px] md:h-[470px] bg-[url(../src/assets/food2.avif)] bg-cover bg-center bg-no-repeat rounded-lg md:mt-[40px]'></div>
+          <div className='w-full h-[300px] md:h-[470px] bg-[url(../src/assets/food3.avif)] bg-cover bg-center bg-no-repeat rounded-lg md:mt-[-40px]'></div>
+          <div className='w-full h-[300px] md:h-[470px] bg-[url(../src/assets/food4.avif)] bg-cover bg-center bg-no-repeat rounded-lg'></div>
         </div>
       </div>
 
